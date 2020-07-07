@@ -16,10 +16,10 @@ module SongsHelper
   end
 
   # Display name if editing through nested
-  def display_name(song, path)
-   if song.artist && path == "nested"
-     song.artist.name
-   end
-  end
+  # def display_name(song, path)
+  #  if song.artist && path == "nested"
+  #    song.artist.name
+  #  end
+  # end
 
 end
