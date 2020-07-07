@@ -7,7 +7,7 @@ module SongsHelper
 
   # Display dropdown of artists, with name if editing through nested
   def artist_select(song)
-    binding.pry
+    # binding.pry
    if song.artist
      hidden_field_tag "song[artist_id]", song.artist_id
    else
